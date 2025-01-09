@@ -1,4 +1,4 @@
-FROM php:8.0-cli
+FROM php:8.4.3RC1-cli
 COPY src/index.php /usr/src/myapp/index.php
 COPY src/cards.json /db/cards.json
 WORKDIR /usr/src/myapp
